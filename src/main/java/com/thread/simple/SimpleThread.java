@@ -22,7 +22,21 @@ public class SimpleThread {
         };
         t1.start();
 
+        //创建线程方法二：实现Runnable接口，实现run()方法
         Thread t2 = new Thread(new MyTask());
         t2.start();
+
+        //守护线程
+        Thread t3 = new Thread();
+        t3.setDaemon(true);
+        t3.start();
+
+        //线程优先级设置
+        Thread high= new Thread();
+        Thread low= new Thread();
+        high.setPriority(Thread.MAX_PRIORITY);
+        low.setPriority(Thread.MIN_PRIORITY);
+        low.start();
+        high.start();
     }
 }
