@@ -1,4 +1,4 @@
-package com.jvm.jvm02;
+package com.jvm.oom;
 
 /**
  * Created by chenbin on 2019\8\30 0030.

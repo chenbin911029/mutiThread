@@ -1,4 +1,4 @@
-package com.jvm.jvm03;
+package com.jvm.param;
 
 /**
  * 数组的空间分配，老年代

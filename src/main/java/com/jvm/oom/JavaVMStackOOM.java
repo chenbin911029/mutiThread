@@ -1,4 +1,4 @@
-package com.jvm.jvm02;
+package com.jvm.oom;
 
 /**
  * 栈内存溢出

@@ -1,4 +1,4 @@
-package com.jvm.jvm03;
+package com.jvm.param;
 
 import java.util.Vector;
 

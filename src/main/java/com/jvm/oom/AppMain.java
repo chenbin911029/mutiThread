@@ -1,4 +1,4 @@
-package com.jvm.jvm02;
+package com.jvm.oom;
 
 /**
  * Java方法区，Java堆，Java栈

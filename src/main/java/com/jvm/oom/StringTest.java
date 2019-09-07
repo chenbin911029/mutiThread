@@ -1,4 +1,4 @@
-package com.jvm.jvm02;
+package com.jvm.oom;
 
 /**
  * String常量分配的测试

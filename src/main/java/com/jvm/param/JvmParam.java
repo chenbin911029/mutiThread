@@ -1,4 +1,4 @@
-package com.jvm.jvm03;
+package com.jvm.param;
 
 /**
  * 堆的分配参数，查看
