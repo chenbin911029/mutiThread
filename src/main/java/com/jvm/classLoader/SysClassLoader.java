@@ -1,6 +1,8 @@
 package com.jvm.classLoader;
 
 /**
+ * 自底向上检查类是否加载，
+ * 自顶向下尝试加载类
  * Created by chenbin on 2019\9\23 0023.
  */
 public class SysClassLoader {
