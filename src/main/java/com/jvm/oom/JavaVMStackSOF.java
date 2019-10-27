@@ -25,3 +25,14 @@ public class JavaVMStackSOF {
         }
     }
 }
+
+/**
+ * stack length:19210
+ Exception in thread "main" java.lang.StackOverflowError
+ at com.jvm.oom.JavaVMStackSOF.stackLeak(JavaVMStackSOF.java:15)
+ at com.jvm.oom.JavaVMStackSOF.stackLeak(JavaVMStackSOF.java:15)
+ at com.jvm.oom.JavaVMStackSOF.stackLeak(JavaVMStackSOF.java:15)
+ at com.jvm.oom.JavaVMStackSOF.stackLeak(JavaVMStackSOF.java:15)
+ at com.jvm.oom.JavaVMStackSOF.stackLeak(JavaVMStackSOF.java:15)
+ at com.jvm.oom.JavaVMStackSOF.stackLeak(JavaVMStackSOF.java:15)
+ */
