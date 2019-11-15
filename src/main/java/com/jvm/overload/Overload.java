@@ -3,6 +3,8 @@ package com.jvm.overload;
 import java.io.Serializable;
 
 /**
+ * 方法重载对入参的路由
+ * 慎用重载
  * Created by chenbin on 2019\9\24 0024.
  */
 public class Overload {
